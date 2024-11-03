@@ -1,0 +1,631 @@
+.navbar-font{
+
+    font-family: "Poppins", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+
+}
+
+
+.navbar-logo-font{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 800;
+    letter-spacing: .0625rem;
+
+}
+
+.header-title{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.125rem;
+    font-weight: 800;
+}
+
+.header-caption{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+
+.header-caption-span{
+    font-weight: 400;
+}
+
+.progress-font{
+    font-family: "Montserrat", sans-serif;
+    font-size: .8125rem;
+    font-weight: 500;
+}
+
+.about-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.875rem;
+    font-weight: 800;
+}
+
+.about-sub-title{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: .875rem;
+    color: #999999;
+    letter-spacing: .125rem;
+}
+
+.about-caption{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: .9375rem;
+    color: #748182;
+}
+
+.about-button{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: .8125rem;
+}
+
+.card-title-font{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.card-caption-font{
+    font-family: "Poppins", sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    word-spacing: .125rem;
+}
+
+.services-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+
+.navbar-alt-color .anch {
+    color: var(--alt-color); 
+}
+
+
+.navbar-alt-color .anch:hover {
+    color: var(--alt-color); 
+}
+
+
+.navbar .anch {
+    color: white; 
+}
+
+
+.navbar-alt-color .nav-link.active .nav_line {
+    background-color: var(--alt-color);
+}
+
+.navbar-background {
+    background-color: white !important; 
+    transition: background-color 0.4s ease-in-out; 
+}
+
+
+.navbar-background .anch {
+    color: #1C1C1C; 
+}
+
+
+
+:root {
+    --lightblue: #ADD8E6; 
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .nav-item {
+        position: relative;
+    }
+
+    .nav_line {
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        height: 2px;
+        background-color: #ffffff;
+        width: 0; 
+        transition: width 0.6s ease; 
+    }
+
+    .nav-item .nav-link.active ~ .nav_line,
+    .nav-item:hover .nav_line {
+        width: 50%;
+    }
+}
+
+
+.navbar {
+    transition: background-color 0.4s ease-in-out;
+    background-color: transparent;
+}
+
+
+
+.anch {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.anch:hover {
+    color: white;
+}
+
+
+.scrolled {
+    background-color: white;
+}
+
+
+.scrolledAnchor {
+    color: #1C1C1C;
+    transition: color 0.3s ease-in-out;
+}
+
+.scrolledAnchor:hover {
+    color: #1C1C1C;
+}
+
+
+.scrolledLine {
+    background: #1c1c1c;
+}
+
+.scrolledLine:hover {
+    background: #1c1c1c;
+}
+
+
+.header{
+    background-image: url(../img/bg.jpg);
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0,0.6);
+}
+
+
+
+.icons-weight{
+    font-size: 0.8em;
+}
+
+
+.font-bg-color{
+    color: #010C14;
+}
+
+
+.navbar-edit{
+    justify-content: space-between;
+    flex-grow: 0;
+}
+
+.progress-edit{
+    width: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.about .dots {
+    background-image: url(../img/dots.png);
+    z-index: -1;
+    top: 7%;
+    right: 5%;
+    background-repeat: repeat;
+}
+
+span .dots {
+    background-image: url(../img/dots.png);
+    z-index: -1;
+    top: 35%;
+    right: 0%;
+    background-repeat: repeat;
+}
+
+.button-cv{
+    border: 1px solid black;
+    transition: all 1s;
+    background-color: black;
+    color: white;
+}
+
+.button-contact{
+    border: 1px solid black;
+    transition: all 1s;
+    background-color: white;
+    color: black;
+}
+
+.cv:hover{
+    background-color: white;
+    color: black;
+}
+
+.contact-me:hover{
+    background-color: black;
+    color: white;
+}
+
+.services-head{
+
+    margin-bottom: 5rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 3.125rem 1.25rem;
+    color: var(--bs-card-color);
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-font-bg-color{
+    color: #F4F4F4;
+}
+
+.clr{
+    color: black;
+}
+
+.card-logo .fa-circle, .card-logo .fa-font-style{
+    transition: all 1s;
+}
+.card-logo:hover.card-logo .fa-circle{
+    color: #1C1C1C;
+}
+.card-logo:hover.card-logo .fa-font-style{
+    color: white;
+}
+
+
+
+.portfolio {
+    padding-block: 6.25rem;
+
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-link {
+    color: black;
+}
+
+.portfolio .nav-tabs .nav-link.active {
+    color: #222;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border: transparent;
+}
+
+.nav-tabs .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: transparent;
+    position: relative;
+}
+
+.nav-tabs .nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height:2px;
+    background-color: #000;
+    transition: width 0.4s ease-in-out;
+}
+
+.nav-tabs .nav-link {
+    border-top: 0;
+    border-bottom: 0;
+    border: 0;
+}
+
+.nav-tabs .nav-link.active::after {
+    width: 100%;
+}
+.cont-portfolio .tab-content .tab-pane .item .headers i{
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    font-size: 12px;
+    border: 1px solid transparent;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    text-align: center; 
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.cont-portfolio .tab-content .tab-pane .item .headers i:hover{
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+.portfolio .item:hover .headers {
+    top: 50%;
+    
+}
+
+.portfolio .item .headers {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: top 0.5s ease;
+    z-index: 1;
+}
+
+.portfolio .item::after{
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    right: 5px;
+    bottom: 15px;
+    background: rgba(255, 255, 255, 0.95) !important; 
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    
+}
+
+.portfolio .item:hover::after {
+    opacity: 1;
+    
+}
+
+/* End portfolio */
+
+
+/* Start testimonials */
+.section5 {
+    padding: 50px 0 150px;
+  }
+  
+  #carouselExampleCaptions
+    > div.carousel-inner
+    > div.carousel-item
+    > div.inner
+    .image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #carouselExampleCaptions
+    > div.carousel-inner
+    > div.carousel-item
+    > div.carousel-caption.d-none.d-md-block {
+    bottom: -50px;
+  }
+  
+  .bottom-50px {
+    bottom: -50px;
+  }
+  
+  .section5 .description {
+    max-width: 900px;
+  }
+  
+  .section5 > div > div button {
+    width: 10px !important;
+    height: 10px !important;
+  }
+  
+  #carouselExampleCaptions
+    > div.carousel-inner
+    > div.carousel-item
+    > div.carousel-caption
+    > p {
+    font-size: 15px;
+    font-family: var(--pop-font);
+    font-weight: 400;
+  }
+  
+  #carouselExampleCaptions
+    > div.carousel-inner
+    > div.carousel-item
+    > div.carousel-caption
+    > div
+    > h5 {
+    font-size: 1rem;
+    font-family: var(--mont-font);
+    font-weight: 600;
+  }
+  #carouselExampleCaptions
+    > div.carousel-inner
+    > div.carousel-item
+    > div.carousel-caption
+    > div
+    > p {
+    font-size: 0.75rem;
+    font-family: var(--pop-font);
+    font-weight: 600;
+    line-height: 25px;
+  }
+/* End testimonials */
+.fw-900 {
+    font-weight: 900;
+}
+
+.fs-8 {
+    font-size: 12px;
+}
+
+.counter {
+    padding-block: 6.25rem;
+}
+
+.container .counter-num p {
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182 !important;
+}
+
+/* start team */
+.team {
+    background: #f7f7f7;
+    padding-block: 6.25rem;
+}
+
+.team .text-team {
+    background-color: rgba(52, 52, 52, .8);
+    border: none;
+}
+
+.team-cont .image .layer {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    inset: 5px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    /* gap: 5px; */
+}
+
+.card:hover .image .layer {
+    scale: 1;
+    transform: rotateY(0deg);
+    opacity: 1;
+}
+
+.team-cont .image .layer i {
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.card .layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-cont .image .layer a:hover i {
+    border-color: #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.team-cont img {
+    transition: all 0.4s ease 0s;
+}
+
+.team-cont .image:hover img {
+    scale: 1.2;
+}
+
+/* End team */
+/* Start contact us */
+.contact {
+    padding-block: 6.25rem;
+}
+
+.contact .cont-info i {
+    /* background-color: darkgoldenrod; */
+    font-size: 25px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+.contact .cont-info .details-cont:hover i {
+    background: #1c1c1c;
+    color: #eee;
+    cursor: pointer;
+}
+
+.contact .details-cont p {
+    line-height: 1.6;
+    font-size: 15px;
+    color: #748182;
+}
+
+.contact .form-control {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+.contact textarea {
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+}
+
+/* End contact us */
+/* Start footer */
+footer {
+    background-color: #1C1C1C;
+    padding: 30px;
+}
+
+footer p {
+    font-size: 14px;
+    word-spacing: 1px;
+}
+
+
+
+
+
+@media (max-width:800px) {
+    
+    .header-caption{
+            font-size: 2rem;
+        }
+    
+    } 
